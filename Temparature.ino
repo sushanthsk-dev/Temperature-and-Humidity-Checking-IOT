@@ -1,10 +1,10 @@
 #include<ESP8266WiFi.h>                                                    // esp8266 library
 #include <FirebaseArduino.h>                                                // firebase library
 #include <DHT.h> // dht11 temperature and humidity sensor library
-#define FIREBASE_HOST "esp8266-a41a7.firebaseio.com"
-#define FIREBASE_AUTH "WBclizqd9Iv2liVKBQBnKN9qqwNXFIJkMiv5OLz4"
-#define WIFI_SSID "sushanthiot"
-#define WIFI_PASSWORD "Diya318@#"                                    //password of wifi ssid 
+#define FIREBASE_HOST "FIREBASE_HOST"
+#define FIREBASE_AUTH "FIREBASE_AUTH"
+#define WIFI_SSID "WIFI_NAME"
+#define WIFI_PASSWORD "PASSWORD"                                    //password of wifi ssid 
 #define DHTPIN D4                                                           // what digital pin we're connected to
 #define DHTTYPE DHT11                                                       // select dht type as DHT 11 or DHT22
 DHT dht(DHTPIN, DHTTYPE);                                                     
